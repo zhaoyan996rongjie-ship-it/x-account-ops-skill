@@ -1,6 +1,8 @@
-﻿---
+---
 name: x-account-ops
 description: Comprehensive X/Twitter account management and daily operations. Use when Codex needs to: (1) Post and manage threads/tweets, (2) Engage with relevant communities through likes and replies, (3) Optimize profile bio, links, and pinned posts, (4) Plan and execute daily engagement routines (20-30 interactions/day), (5) Track and analyze account growth metrics.
+---
+
 
 # X Account Operations
 
