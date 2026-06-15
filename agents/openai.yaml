@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Account Operations"
+  short_description: "X/Twitter account daily operations: content posting, engagement growth, profile optimization"
+  default_prompt: "Help me operate my X/Twitter account. Tasks include posting content, engaging with communities, optimizing my profile, and growing my follower base."
