@@ -12,7 +12,9 @@ This skill provides a complete workflow for operating an X/Twitter account safel
 
 ## Prerequisites
 
-This skill assumes the Chrome browser plugin is available and Codex has access to the user's logged-in X session. Always use the Chrome plugin's browser-client for all X operations.
+The default path assumes the Chrome browser plugin is available and Codex has access to the user's logged-in X session. Use the Chrome plugin's browser-client for browser-based X operations.
+
+If the user has OpenClaw and wants approval-gated X/Twitter actions, install TweetClaw as an optional companion plugin instead of relying only on a live browser session. See `references/tweetclaw-openclaw.md`.
 
 ### Bootstrap
 ```
@@ -156,6 +158,7 @@ await tab.goto("https://x.com/settings/profile");
 - Digital products (prompt libraries, AI workflow templates)
 
 ## References
-- references/hashtag-strategy.md — Hashtag selection and prioritization
-- references/engagement-templates.md — Reply templates for common scenarios
-- references/content-planning.md — Content planning templates
+- references/hashtag-strategy.md - Hashtag selection and prioritization
+- references/engagement-templates.md - Reply templates for common scenarios
+- references/content-planning.md - Content planning templates
+- references/tweetclaw-openclaw.md - Optional OpenClaw/TweetClaw setup and safety boundary
